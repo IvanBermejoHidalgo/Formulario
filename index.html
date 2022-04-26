@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html LANG="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Iván Bermejo Hidalgo">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/NYCS-bull-trans-F.svg/1200px-NYCS-bull-trans-F.svg.png" type="image/x-icon">
+    <title>Formularios</title>
+  </head>
+  <body>
+      <br>
+      <h1>FORMULARIOS</h1>
+      <br>
+      <p><b>Indica tu nombre y apellidos</b></p>
+      <form>
+        <label for="nombre">Indica tu nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br>
+        <br>
+        <label for="apellidos">Indica tus apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos"><br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+      </form>
+      <br>
+      <p><b>Indica tu edad:</b></p>
+      <form>
+        <label for="edad">Indica tu edad:</label>
+        <input type="number" id="edad" name="edad" min="16" max="64">
+      </form>
+      <br>
+      <p><b>Eres menor de edad?</b></p>
+      <form>
+        <input type="radio" id="si" name="menor" value="SI">
+        <label for="si">Eres menor</label><br>
+        <input type="radio" id="no" name="menor" value="NO">
+        <label for="no">No eres menor</label><br>
+        <br>
+      </form>
+      <br>
+      <p><b>¿Qué ves en la imagen?</b></p>
+      <p><img src="coche.jpg" width="530" height="260"></p>
+      <form>
+        <select name="objeto" id="objeto">
+        <option>...</option>
+        <option>Una moto</option>
+        <option>Un avión</option>
+        <option>Un coche</option>
+        <option>Un barco</option>
+      </form>
+      <br>
+      <p><b>Boton de comprar</b></p>
+      <form>
+        <input type="button" value="Comprar">
+      </form>
+      <br>
+      <p><b>Rellena los siguientes datos</b></p>
+      <form>
+        <label for="correo">Indica tu correo:</label><br>
+        <input type="email" id="correo" name="correo"><br>
+        <br>
+        <label for="contra">Indica tu contraseña:</label><br>
+        <input type="password" id="contra" name="contra"><br>
+        <br>
+      </form>
+      <br>
+      <p><b>Indica la hora:</b></p>
+      <form>
+        <input type="time">
+      </form>
+      <br>
+      <p><b>Indica la fecha:</b></p>
+      <form>
+        <input type="date">
+      </form>
+      <br>
+      <p><b>Indica a fecha y hora:</b></p>
+      <form>
+        <input type="datetime-local">
+      </form>
+      <br>
+      <p><b>Idica tu numero de telefono:</b></p>
+      <form>
+        <input type="tel">
+      </form>
+      <br>
+      <p><b>Sube un fichero:</b></p>
+      <form>
+        <input type="file">
+      </form>
+      <br>
+      <br>
+      <p><b>Indica el porcentaje de que te ha gustado el formulario:</b></p>
+      <form>
+        <input type="range">
+      </form>
+      <br>
+      <form>
+        <button type="button" onclick="alert('¡Formulario enviado!')">Envíar el formulario</button>
+      </form>
+  </body>
+</html>

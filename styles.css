@@ -1,0 +1,20 @@
+html{
+  text-align: center;
+  width: 1920px;
+  height: 1080px;
+  background-color: #bef7a1;
+}
+
+input{
+  border-radius: 2px;
+  border-color: #b96008;
+}
+
+label{
+  font-size: 20px;
+}
+
+button{
+  border-radius: 2px;
+  border-color: #b96008;
+}
